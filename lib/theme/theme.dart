@@ -5,7 +5,9 @@ final dartTheme = ThemeData(
     scaffoldBackgroundColor: const Color(0x3B3D3D4D),
     dividerColor: Colors.white10,
     appBarTheme: const AppBarTheme(
+        iconTheme: IconThemeData(color: Colors.white),
         backgroundColor: Color(0x3B3D3D4D),
+        elevation: 0,
         titleTextStyle: TextStyle(
             color: Colors.white, fontSize: 20, fontWeight: FontWeight.w700)),
     listTileTheme: const ListTileThemeData(iconColor: Colors.white),
